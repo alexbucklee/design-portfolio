@@ -1,0 +1,9 @@
+:root {
+    --black-color: rgba(0, 0, 0, 1);
+    --grey-color: rgba(0, 0, 0, 0.6);
+    --accent-fontsize: 24px;
+    --heading-fontsize: 40px;
+    --body-fontize: 16px;
+    --description-fontize: 14px;
+    --lineheight: 1.3;
+  }
