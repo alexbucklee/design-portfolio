@@ -1,9 +1,19 @@
 :root {
     --black-color: rgba(0, 0, 0, 1);
     --grey-color: rgba(0, 0, 0, 0.6);
-    --accent-fontsize: 24px;
+    --accent-fontsize: 28px;
     --heading-fontsize: 40px;
+    --heading2-fontsize: 32px;
     --body-fontize: 16px;
     --description-fontize: 14px;
-    --lineheight: 1.3;
+    --body-lineheight: 1.3;
+    --title-lineheight: 1.2;
+    --accent-fontfamily: 'Times New Roman', Times, serif;
   }
+
+  @media (max-width: 720px) {
+    :root {
+      --accent-fontsize: 20px;
+      /* --description-fontize: 12px; */
+    }
+}

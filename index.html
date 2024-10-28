@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/glightbox.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body class="body">
     <div class="container">
-        <header class="header">
-            <ul class="header__social-links social-links">
-                <li class="social-links__item"><a class="social-links__link" href="https://vk.com/idmnogatsifr" target="_blank">VK</a></li>
-                <li class="social-links__item"><a class="social-links__link" href="https://t.me/st_alex" target="_blank">Telegram</a></li>
-                <!-- <li class="social-links__item"><a class="social-links__link" href="">Скопировать e-mail</a></li> -->
-            </ul>
-        </header>
-        <main>
+        <main class="main">
+            <header class="header">
+                <ul class="header__social-links social-links">
+                    <li class="social-links__item"><a class="social-links__link" href="https://vk.com/idmnogatsifr" target="_blank">VK</a></li>
+                    <li class="social-links__item"><a class="social-links__link" href="https://t.me/st_alex" target="_blank">Telegram</a></li>
+                    <!-- <li class="social-links__item"><a class="social-links__link" href="">Скопировать e-mail</a></li> -->
+                </ul>
+            </header>
+
             <h1 class="visually-hidden">Портфолио дизайнера Алексея Стяжкина</h1>
             <section class="hero">
                 <div class="hero__wrapper">
                     <div class="hero__col">
                         <img class="hero__photo" src="images/my-photo-min.jpg" alt="Алексей Стяжкин">
+                        <img class="hero__photo-heart" src="images/heart-hands.png" alt="Пасхалочка">
                     </div>
                     <div class="hero__col">
                         <p class="hero__name">Алексей Стяжкин</p>
-                        <p class="hero__description">Проектирую пользовательский опыт. Делаю фокус на функциональность и системный подход. 3 года в дизайне.</p>
+                        <p class="hero__description">Проектирую пользовательский опыт. Делаю фокус на&nbsp;функциональность и&nbsp;системный подход. 3&nbsp;года в&nbsp;дизайне.</p>
                         <ul class="hero__jobs">
                             <li class="hero__jobs-item">Студия цифровых решений<br>Веб-дизайнер<br>2021–2023</li>
                             <li class="hero__jobs-item">Студия цифровых решений<br>Дизайнер интерфейсов, аналитик<br>2023–2024</li>
@@ -38,24 +41,24 @@
             <section class="portfolio">
                 <h2 class="portfolio__title">Некоторые работы</h2>
                 <ul class="portfolio__works-list">
-                    <a href="" class="portfolio__works-link">
+                    <a href="works/first-start-cryptoarm.html" class="portfolio__works-link">
                         <li class="portfolio__works-item">
                             <img src="images/image-placeholer.png" alt="Первый запуск приложения" class="portfolio__works-image">
                             <h3 class="portfolio__works-title">Первый запуск приложения</h3>
                             <p class="portfolio__works-description">Аналитика, дизайн</p>
                         </li>
                     </a>
-                    <a href="" class="portfolio__works-link">
+                    <a href="works/certificate-installing-cryptoarm.html" class="portfolio__works-link">
                         <li class="portfolio__works-item">
                             <img src="images/image-placeholer.png" alt="Установка сертификата с носителя" class="portfolio__works-image">
                             <h3 class="portfolio__works-title">Установка сертификата с носителя</h3>
                             <p class="portfolio__works-description">Аналитика, дизайн</p>
                         </li>
                     </a>
-                    <a href="" class="portfolio__works-link">
+                    <a href="works/diagnostic-cryptoarm.html" class="portfolio__works-link">
                         <li class="portfolio__works-item">
                             <img src="images/image-placeholer.png" alt="Проверка рабочего места" class="portfolio__works-image">
-                            <h3 class="portfolio__works-title">Проверка рабочего места</h3>
+                            <h3 class="portfolio__works-title">Диагностика приложения</h3>
                             <p class="portfolio__works-description">Аналитика, дизайн</p>
                         </li>
                     </a>
@@ -134,7 +137,7 @@
 
         toolItems.forEach(item => {
             item.addEventListener("mouseover", () => {
-                item.style.cursor = "url('images/screwdriver.png'), auto";
+                item.style.cursor = "url('images/wrench.png'), auto";
             });
         });
       </script>
