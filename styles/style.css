@@ -76,7 +76,8 @@ img {
 .hero {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    padding-top: 264px;
+    padding-bottom: 200px;
 }
 
 .hero__wrapper {
@@ -237,7 +238,7 @@ img {
 .work-hero__title {
     font-size: var(--heading-fontsize);
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     line-height: 1.2;
     color: var(--black-color);
 }
@@ -463,6 +464,15 @@ img {
 @media (max-width: 720px) {
     .container {
         margin: 0 24px;
+    }
+
+    .hero {
+        padding-top: 184px;
+        padding-bottom: 160px;
+    }
+
+    .hero__jobs .hero__jobs-item {
+        font-size: 12px;
     }
 
     .hero__wrapper {
