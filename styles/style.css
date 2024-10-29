@@ -117,7 +117,7 @@ img {
     font-size: var(--accent-fontsize);
     color: var(--black-color);
     margin-bottom: 48px;
-    line-height: var(--body-lineheight);
+    line-height: 1.2;
     font-family: 'Times New Roman', Times, serif;
 }
 
